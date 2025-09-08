@@ -111,9 +111,3 @@ go build -o winscape.exe cmd/main.go
 
 * Original vulnerability research and proof-of-concept implementation by [@BlackSnufkin](https://github.com/BlackSnufkin/BYOVD/tree/main/BdApiUtil-Killer).
 * Golang reimplementation and initial extensions in [dead-av](https://github.com/carved4/dead-av).
-* **winscape** continues this line of development, introducing additional features such as:
-
-  * Embedded driver extraction.
-  * Expanded process termination targeting.
-  * Kernel module enumeration and retrieval of the `ntoskrnl` base address.
-
